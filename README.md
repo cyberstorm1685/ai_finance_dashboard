@@ -26,7 +26,7 @@ A pixel-perfect Flutter application demonstrating advanced UI, clean architectur
 - Pull-to-refresh and skeleton loaders (bonus)
 
 ## Screenshots
-![Splash](screenshots/splash.png=300x)
+![Splash](screenshots/splash.png)
 ![Login Light](screenshots/login_light.png)
 ![Login Dark](screenshots/dashboard.png)
 ![Dashboard](screenshots/dashboard2.png)
