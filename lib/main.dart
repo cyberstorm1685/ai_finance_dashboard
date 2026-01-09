@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import 'core/themes/app_theme.dart';
-import 'core/constants/colors.dart'; 
+import 'core/constants/colors.dart';
 import 'features/auth/presentation/splash_screen.dart';
 import 'features/auth/presentation/login_screen.dart';
 import 'features/dashboard/presentation/dashboard_screen.dart';
