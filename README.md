@@ -1,16 +1,40 @@
-# ai_finance_dashboard
+# AI-Driven Finance Dashboard Mobile App
 
-A new Flutter project.
+A pixel-perfect Flutter application demonstrating advanced UI, clean architecture, and production-level UX.
 
-## Getting Started
+## Features Implemented
+- Authentication flow (Splash + Login with validation)
+- Dashboard with custom app bar, line chart, transaction list
+- Transaction detail with Hero animation and bottom sheet
+- Insights with tabs and pie chart
+- Profile with theme toggle, image picker, logout
 
-This project is a starting point for a Flutter application.
+## Architecture
+- **Feature-first** folder structure
+- Layers: Presentation, Domain, Data
+- No business logic in widgets
 
-A few resources to get you started if this is your first Flutter project:
+## State Management
+**Riverpod** – Chosen for efficient dependency injection, auto-dispose (prevents unnecessary rebuilds), and clean provider usage.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technical Highlights
+- Custom widgets (no default Material styling)
+- Dark mode support
+- Consistent spacing system (8/16/24px)
+- Micro-interactions and animations
+- Optimized ListViews, const constructors
+- Pull-to-refresh and skeleton loaders (bonus)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+![Splash](screenshots/splash.png)
+![Login Light](screenshots/login_light.png)
+![Login Dark](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard2.png)
+![Transaction Detail](screenshots/transaction_detail.png)
+![Insights](screenshots/insights.png)
+![Profile](screenshots/profile.png)
+
+## How to Run
+```bash
+flutter pub get
+flutter run
